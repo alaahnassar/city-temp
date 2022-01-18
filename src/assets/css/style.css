@@ -1,3 +1,16 @@
+/*made by meeeee ---------------*/
+
+.slider-area form.search-box .select-form .selectt {
+    background: #fff;
+    color: #616875;
+    line-height: 42px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/*-----------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500,600,700|Sacramento|Sulphur+Point:400,700&display=swap");
 .white-bg {
     background: #ffffff
@@ -2742,7 +2755,14 @@ hr {
 }
 
 .slider-area form.search-box .select-form {
-    width: 34%
+    width: 34%;
+    height: 60px;
+    background: #fff;
+    border-radius: 0px;
+    padding: 11px 19px 11px 10px;
+    color: #616875;
+    line-height: 42px;
+    border: 0
 }
 
 @media (max-width: 575px) {
@@ -3273,6 +3293,10 @@ hr {
         padding-top: 70px;
         padding-bottom: 20px
     }
+}
+
+.services-area {
+    background-image: url(/src/assets/img/gallery/section_bg02.jpg);
 }
 
 .services-area .single-services .services-icon {
